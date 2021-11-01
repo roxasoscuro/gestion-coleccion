@@ -1,2 +1,2 @@
 # gestion-coleccion
-aplicacion para gestionar coleccion
+aplicacion chorrra en php para gestionar mi coleccion de morras chinas
