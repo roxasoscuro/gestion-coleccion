@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <?php 
 //starting the session
+
 session_start();
 ?>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" type="text/css" href="boostrap/css/bootstrap.css"/>
+		<link rel="stylesheet" type="text/css" href="boostrap/slate/bootstrap.css"/>
 	</head>
 <body>
 	<div class="col-md-3"></div>
 	<div class="col-md-6 well">
-		<h3 class="text-primary">PHP - Login And Registration To Sqlite Using PDO</h3>
+		<h3 class="text-primary">PHP - Login</h3>
 		<hr style="border-top:1px dotted #ccc;"/>
 		<!-- Link for redirecting page to Registration page -->
-		<a href="register_new.php">Not a member yet? Register here...</a>
 		<br style="clear:both;"/><br />
 		<div class="col-md-3"></div>
 		<div class="col-md-6">
