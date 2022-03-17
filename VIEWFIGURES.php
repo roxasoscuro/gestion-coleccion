@@ -30,7 +30,7 @@
 				  <thead>
 				    <tr>
 				      <th>nombre</th>
-				      <th class="text-right">marca</th>
+				      <th class="">marca</th>
 				      <th class="text-right">imagen chiquita</th>
 				    </tr>
 				  </thead>
@@ -45,7 +45,7 @@ while($row=$query->fetchArray()){
 	echo ' <tr>';
 	 echo '<td>' . $row['nombre_figura'] . '</td>';
         echo '<td>' . $row['marca'] . '</td>';
-        $result = $conn->querySingle("select thumbnail from imagenes_figuras where nombre_figura='".$row['nombre_figura']."'");
+        $result = $conn->querySingle("select thumbnail from imagenes_figuras where id_figura='".$row['id_figura_mfc']."'");
         echo '<td><img src="' . $result . '"/></td>';
     echo ' </tr>';
 
