@@ -1246,7 +1246,7 @@ CSS variables (CSS custom properties)
 
     /* Select */
 
-    --select-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAI9JREFUeNpiZACCyMjIBCDVD8SOy5cvv8BAAgDqNQBS+4G4EKh3ASPUsPlQ+Q+kGIpkmABUKJEJ6jIYAEnshyok1TAQ6AcZ6Ah1GdGG4jAM7DtGQgrQvU9ILSOxColVw0is7VA2QV8wkhA+DMQECSMJgc5AyDCcBhIwFG9aZSQxrRFM+IwkJGAGYnIRQIABACQuXCKovu2mAAAAAElFTkSuQmCC);
+    --select-bg-image: url();
     --select-bg-size: 1rem;
     --select-bg-repeat: no-repeat;
     --select-bg-position: calc(100% - 1rem) center;
@@ -2345,7 +2345,7 @@ CSS variables (CSS custom properties)
     /* Collapse header arrow set using background image */
 
     --collapse-header-padding-with-bg-image: 1.2rem 2rem 1.2rem 4.4rem; /* Only the padding on the left is increased to make room for the arrow */
-    --collapse-header-bg-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAUCAYAAAC58NwRAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5AgHFAwNJY24UQAAAJVJREFUKM+lk8ENgzAMRZ9hgS4SiRFgDN+6QifpCD1mDFbIIQuwASNwcaSqKsEW/5RI/1n+jiMAqvoE3sCScy50JGb+2H2/ggar3PQAVlWdesBilV2QWIYJWM1Mrz1pBy8k37QHkt8eryD5F6wHydn4zqCBoO63FAodGmvo4UKrETG3bXWbG/DymgHGWmtJKW3A7PmiB2rUYYave/NSAAAAAElFTkSuQmCC);
+    --collapse-header-bg-image: url();
     --collapse-header-bg-size: 0.6rem;
     --collapse-header-bg-repeat: no-repeat;
     --collapse-header-bg-position: 2rem center;
