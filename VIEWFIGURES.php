@@ -18,7 +18,7 @@
   <div class="page-wrapper with-navbar">
     <div class="sticky-alerts"></div>
     <nav class="navbar">
-    <h1><a href="HOME.php">VOLVER</a></h1>
+    <h1><a href="home.php">VOLVER</a></h1>
     </nav>
 
 <!-- Content wrapper start -->
@@ -72,6 +72,5 @@ while($row=$query->fetchArray()){
 
 
 
-  <script src="halfmoon/js/halfmoon.min.js"></script>
 </body>	
 </html>

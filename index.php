@@ -63,7 +63,6 @@
   </div>
   <!-- Page wrapper end -->
 
-  <!-- Halfmoon JS -->
-  <script src="halfmoon/js/halfmoon.min.js"></script>
+
 </body>	
 </html>

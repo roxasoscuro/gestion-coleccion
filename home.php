@@ -27,6 +27,6 @@
 		    <a href="logout.php" class="btn">logout</a>
 		  </div>
 		</div>
-  <script src="halfmoon/js/halfmoon.min.js"></script>
+
 </body>	
 </html>
