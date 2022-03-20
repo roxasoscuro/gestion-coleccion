@@ -27,6 +27,6 @@
 		    <a href="logout.php" class="btn">logout</a>
 		  </div>
 		</div>
-
+ 
 </body>	
 </html>

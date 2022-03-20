@@ -18,13 +18,10 @@
 		$telPrecio = sprintf("**Precio:** %s\n",$precio);
 		$telUbicacion = sprintf("**Ubicación:** %s\n",$ubicacion);
 
-		if(strpos($usuario, '@')){
-			$telUsuario = sprintf("**Usuario:** %s\n",$usuario);
-		}else{
-			$usuariotemp = '@'.$usuario;
-			$telUsuario = sprintf("**Usuario:** %s\n",$usuariotemp);
-		}
-		$telTOTAL = $telTitulo.$telDescripcion.$telEstado.$telPrecio.$telUbicacion;
+		$new_str = str_replace('@', '', $usuario);
+		$telUsuario = sprintf("**Ubicación:** %s\n",$new_str);
+		
+		$telTOTAL = $telTitulo.$telDescripcion.$telEstado.$telPrecio.$telUbicacion.$telUsuario;
 		//$telTOTAL ="q";
 		echo "</br>";
 	echo '<textarea id="txtventa" class="form-control " readonly="readonly">'.$telTOTAL.'</textarea>';
